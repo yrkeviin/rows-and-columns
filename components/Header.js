@@ -1,23 +1,21 @@
-import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text, StyleSheet } from "react-native";
 
 export default function Header() {
     return (
-        <View styles={styles.header}>
-            <Text style={styles.headerText}>Aula Mobile</Text>
+        <View style={styles.header}>
+            <Text style={styles.headerText}>Aula de Mobile</Text>
         </View>
-    )
+    );
 }
+
 const styles = StyleSheet.create({
     header: {
-        backgroundColor: '#fff',
-        padding: 20,
-        width: '100%',
-        alignItems: 'center',
-        justifyContent: 'center',
+        backgroundColor: "red",
+        paddingVertical: 20,
+        alignItems: "center",
     },
     headerText: {
-        fontSize: 20,
-        fontWeight: 'bold',
-    }
+        fontSize: 28,
+        color: "white",
+    },
 });
